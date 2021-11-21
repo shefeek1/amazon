@@ -1,0 +1,231 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header
+{
+width: 100%;
+background-color: #16232e;
+padding: 20px;
+position: static;
+top:0;
+}
+header .container{
+    display:flex;
+    justify-content: space-between;   
+}
+
+header a{
+    text-decoration: none;
+    margin-right: 100px;
+    letter-spacing: 1px;
+    color: rgba(255,255,255,0.719);
+}
+.banner_container
+{
+    position: relative;  
+}
+.section
+{
+    width: 100%;
+    height: 730px;
+    background-color: wheat;
+
+}
+.image1
+{
+    width: 100%;
+    height: 730px;
+}
+.left-section
+{
+    width: 40%;
+    height: 300px;
+    position: absolute;
+    top: 183px;
+    left: 55px;
+
+}
+.text1{
+    font-weight: initial;
+    color: white;
+    font-size: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text2
+{
+    color: white;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button
+{
+    color: white;
+    width: 250px;
+    height: 55px;
+    font-size: larger;
+    border-radius: 0px;
+    background-color: #16a3eb;
+    margin-left: 1px;
+    cursor: pointer;
+    border: none;
+}
+.section-2-left
+{
+    width: 50%;
+    height: 550px;
+    background-color:white;
+    font-weight: normal;
+    float: left;
+}
+.section-2-right
+{
+    width: 50%;
+    height: 550px;
+    background-color:white;
+    float: left;
+}
+.text3
+{
+    color:black;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 35px;
+    font-weight: lighter;
+}
+.text4
+{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 38px;
+    letter-spacing: 0px;
+    color: #624f4f;
+    font-weight: lighter;
+}
+.image{
+    float: left;
+    width: 195px;
+    height: 150px;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.section-3-full
+{
+    width: 100%;
+    height: 550px;
+    float: left;
+}
+.image2
+{
+    width: 100%;
+    height: 550px;
+}
+.section-3-left
+{
+    width: 50%;
+    height: 271px;
+    position: absolute;
+    top: 1471px;
+    left: 36px;
+    float: left;
+    
+}
+.section-4-full
+{
+    width: 100%;
+    height: 550px;
+    background-color:violet;
+    float: left;
+}
+.section-4-right
+{
+    width: 50%;
+    height: 301px;
+    position: absolute;
+    top: 1980px;
+    left: 760px;
+    float: left;  
+}
+.logotext
+{
+    width: 141px;
+    height: 38px;
+}
+.image:hover{
+    cursor: pointer;
+    transform:scale(1.03);
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgb(116, 114, 116);  
+}
+.section-5-full
+{
+    width: 100%;
+    height: 525px;
+    background-color: wheat;
+    float: left;
+}
+.img3
+{
+    width: 100%;
+    height:525px;   
+}
+.section-6-full
+{
+    width: 100%;
+    height: 525px;
+    background-color: blanchedalmond;
+    float: left;
+}
+.section-6-full img
+{
+    width: 100%;
+    height: 525px;
+}
+.section-6-left
+{
+    width: 50%;
+    height: 301px;
+    position: absolute;
+    top: 3062px;
+    left: 82px;
+}
+.footer
+{
+    width: 100%;
+    height: 150px;
+    background-color:#1f1f1f ;
+    float: left;
+}
+.footer-1
+{
+    width: 40%;
+    height: 70px;
+    margin-left: 462px;
+}
+.footer-2
+{
+    width: 50%;
+    height: 80px;
+    margin-left: 462px;
+    float: left;
+    margin-top: 0px;   
+}
+.footer-1 img
+{
+    width: 111px;
+    height: 37px;
+    margin-left: 175px;
+    margin-top: 20px;
+}
+.footer-2 h4
+{
+font-family: "Amazon Ember";
+font-size: 15px;
+letter-spacing: .5px;
+color: white;
+}
